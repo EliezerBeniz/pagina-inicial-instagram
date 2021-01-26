@@ -124,3 +124,28 @@ body{
 .app-download:nth-child(2) {
     background-image: url('./images/app-android.png');
 }
+
+/* media queries */
+
+@media (max-width: 1115px) {
+    .instagram-wrapper {
+        width: 90%;
+    }
+}
+
+@media (max-width: 741px) {
+    body {
+        background-color: #ffffff;
+    }
+
+    .instagram-phone {
+        display: none;
+    }
+    .instagram-continue {
+        margin: auto;
+        width: 80%;
+    }
+    .group {
+        border: 1px solid transparent;
+    }
+}
