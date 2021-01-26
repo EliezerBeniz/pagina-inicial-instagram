@@ -36,6 +36,12 @@ body{
     height: 50rem;
 }
 
-.instagram-logo {
-    width: 300px;
+.instagram-continue {
+    display: flex;
+    align-items: center;  /* horizontal */
+    justify-content: space-around;  /* vertical */
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
 }
+
