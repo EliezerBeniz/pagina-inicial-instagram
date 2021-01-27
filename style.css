@@ -22,7 +22,7 @@ body{
     align-items: center;
     justify-content: start;
     width: 60%;
-    height: 100vh;
+    max-height: 100vh;
 }
 
 .instagram-phone {
@@ -33,7 +33,7 @@ body{
 }
 
 .instagram-phone img {
-    height: 50rem;
+    height: 45rem;
 }
 
 .instagram-continue {
@@ -42,6 +42,7 @@ body{
     justify-content: space-around;  /* vertical */
     flex-direction: column;
     width: 50%;
+    max-width: 350px;
     min-height: 34rem;
 }
 
@@ -64,16 +65,44 @@ body{
     height: 3rem;
 }
 
+.contas {
+    width: 100%;
+    padding: 0 .8rem;
+}
+
 .profile-photo {
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    border-radius: 50%;
     overflow: hidden; /* serve para esconder o partes em excesso da imagem respeitando a div */
+    padding: .4rem 0;
+}
+
+.profile-photo:nth-child(1) {
+    border-top: 1px solid #efefef;
+}
+
+.profile-photo:nth-child(2) {
+    border-bottom: 1px solid #efefef;
+}
+
+.image-name {
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.img-conta {
+    border-radius: 50%;
+}
+
+.name-conta {
+    padding: 0 .6rem;
 }
 
 .profile-photo img {
-    height: 6rem;
+    height: 4rem;
 }
 
 .instagram-login {
